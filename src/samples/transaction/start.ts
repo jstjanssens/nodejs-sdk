@@ -28,6 +28,7 @@ Paynl.Transaction.start({
     extra1: 'extra1',
     extra2: 'extra2',
     extra3: 'extra3',
+    object: 'nodejs-sdk' // overwrite this with your own plugin or platform id if you are a technical partner
 
     invoiceDate: new Date(),
     deliveryDate: new Date('2016-10-19'),
